@@ -1,0 +1,89 @@
+<resources>
+    <string name="app_name">Pro SafeBites</string>
+    <string name="default_app_name">SafeBites</string>
+    <string name="app_description">SafeBites is an application that allows you to quickly and easily discover the nutritional values of a food, in order to decide if it is suitable for your personal consumption, as well as making a quick comparison between two products to analyse which is healthier.</string>
+    <string name="no_data">No data</string>
+    <string name="no_internet_connection">No Internet connection</string>
+    <string name="no_products_found">No products found</string>
+    <string name="no_favorite_products">There are no favorite products</string>
+    <string name="search_query">Enter your search query</string>
+
+    <string name="favorite_products">My favorite products</string>
+
+    <string name="email_content">"Hey buddy! Take a look at this new and incredible app:"</string>
+    <string name="email_url">https://github.com/maneletorres/SafeBites</string>
+    <string name="chooser_message">Choose where you want to share SafeBites App</string>
+
+    <string name="per_100_g">100 g</string>
+    <string name="per_100_ml">100 ml</string>
+    <string name="per_portion">Portion</string>
+    <string name="product_A">Product A</string>
+    <string name="product_B">Product B</string>
+
+    <!-- Content description: -->
+    <string name="image_description">Cover of the product image</string>
+    <string name="save_image_button_description">Save ImageButton</string>
+    <string name="delete_image_button_description">Delete ImageButton</string>
+
+    <!-- RadioButton: -->
+    <string name="comparison_1">Compare two scanned products</string>
+    <string name="comparison_2">Compare two favorite products</string>
+    <string name="comparison_3">Compare a scanned product and a favorite product </string>
+
+    <!-- TabItem: -->
+    <string name="tab_text_search">Search</string>
+    <string name="tab_text_compare">Compare</string>
+    <string name="tab_text_favorites">Favorites</string>
+    <string name="tab_text_nutrients">Nutrients</string>
+    <string name="tab_text_ingredients">Ingredients</string>
+
+    <!-- Navigation Drawer: -->
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_image">Navigation header image</string>
+    <string name="nav_header_title">Safe Bites</string>
+    <string name="nav_header_subtitle">maneletorres@hotmail.com</string>
+    <string name="nav_home">Home</string>
+    <string name="nav_user">User</string>
+    <string name="nav_preferences">Preferences</string>
+    <string name="nav_log_out">Log out</string>
+    <string name="nav_others">Others</string>
+    <string name="nav_share">Share</string>
+    <string name="nav_information">Information</string>
+
+    <!-- Menu: -->
+    <string name="action_scan">Scan</string>
+    <string name="action_cancel">Cancel</string>
+
+    <!-- Toast: -->
+    <string name="product_not_found">Product not found</string>
+    <string name="search_request">You must enter a search.</string>
+    <string name="comparison_error">There are not enough products saved as a favorite to make the comparison</string>
+
+    <!-- ProgressBar: -->
+    <string name="scanning_progress_bar">Scanning…</string>
+    <string name="searching_progress_bar">Searching…</string>
+    <string name="loading_progress_bar">Loading…</string>
+
+    <!-- App mentions: -->
+    <string name="app_mentions">This project is based on the Open Food Facts group database and uses the ZXing library ("Zebra Crossing"), to which their enormous work and fantastic initiative are appreciated, making reference to them in the following links:</string>
+    <string name="mention1"><a href="some site">https://world.openfoodfacts.org/</a></string>
+    <string name="mention2"><a href="some site">https://github.com/zxing/zxing</a></string>
+
+    <!-- Facebook application ID and custom URL scheme (app ID prefixed by 'fb'). -->
+    <string name="facebook_application_id" translatable="false">2181165218834161</string>
+    <string name="facebook_login_protocol_scheme" translatable="false">fb2181165218834161</string>
+    <!-- Twitter consumer key and secret -->
+    <string name="twitter_consumer_key" translatable="false">u9psOiwSsKkw1mD73bi5JODu9</string>
+    <string name="twitter_consumer_secret" translatable="false">Qgosv9t0Lvw8XCFuFTIogkuYY8I2YVgBFqMBgJjuUAMtdg15fi</string>
+
+    <string name="product_save_error">Error with saving product</string>
+    <string name="product_save_success">Product saved</string>
+    <string name="product_already_favorite">The product is already marked as favorite.</string>
+    <string name="marking_favorite_product_error">Error with marking product as favorite.</string>
+    <string name="product_unfavorite">Product unmarked as favorite.</string>
+    <string name="favorite_product_not_marked">This product is not marked as a favorite.</string>
+    <string name="scan_canceled">Scan canceled by the user</string>
+    <string name="compare">Compare</string>
+
+</resources>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/RelativeLayoutStyle">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/frame_layout_nutrients_header"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:elevation="2dp"
+            android:padding="16dp">
+
+            <ImageView
+                android:id="@+id/image_view_nutrients_header"
+                android:layout_width="@dimen/list_item_width"
+                android:layout_height="@dimen/list_item_height"
+                android:contentDescription="@string/image_description" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <TextView
+                    android:id="@+id/product_name_text_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    tools:text="Name of the product" />
+
+                <TextView
+                    android:id="@+id/product_upc_text_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    tools:text="UPC of the product" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/white"
+            android:padding="16dp">
+
+            <LinearLayout
+                android:id="@+id/header_container"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="16dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1" />
+
+                <TextView
+                    android:id="@+id/header_per_100g"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="end"
+                    android:text="@string/per_100_g"
+                    android:textAlignment="textEnd"
+                    android:textStyle="bold"
+                    tools:text="Per 100g" />
+
+                <TextView
+                    android:id="@+id/header_per_serving"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="end"
+                    android:text="@string/per_portion"
+                    android:textAlignment="textEnd"
+                    android:textStyle="bold"
+                    tools:text="Per portion" />
+
+            </LinearLayout>
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/nutrient_recycler"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/header_container"
+                app:layoutManager="android.support.v7.widget.LinearLayoutManager" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/save_or_delete_FAB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:elevation="8dp"
+        android:src="@drawable/content_save"
+        app:fabSize="normal"
+        app:layout_anchor="@id/frame_layout_nutrients_header"
+        app:layout_anchorGravity="bottom|right" />
+
+</android.support.design.widget.CoordinatorLayout>
